@@ -2,7 +2,7 @@
 //  FeedViewController.swift
 //  CodePath_assignment5parstagram
 //
-//  Created by Dean Pektas on 3/23/19.
+//  Created by Dean Pektas on 3/24/19.
 //  Copyright © 2019 Dean Pektas. All rights reserved.
 //
 
@@ -10,34 +10,34 @@ import UIKit
 import Parse
 import AlamofireImage
 
-
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    
+
+    //@IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tableView: UITableView!
     
     var posts = [PFObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         tableView.delegate = self
         tableView.dataSource = self
-
         // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        super.viewDidAppear(animated) //pulls in post that was just posted
         
         let query = PFQuery(className:"Posts")
         query.includeKey("author")
         query.limit = 20
         
         query.findObjectsInBackground { (posts, error) in
-            if posts != nil {
-                self.posts = posts!
-                self.tableView.reloadData()
+            if posts != nil { //if able to find stuff
+                self.posts = posts!//stores post data
+                self.tableView.reloadData()//reloads data so it can be shown
+                
             }
         }
     }
@@ -53,18 +53,18 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let user = post["author"] as! PFUser
         cell.usernameLabel.text = user.username
-        
         cell.captionLabel.text = post["caption"] as! String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
         
-        //cell.photoView.af_setImage(withURL: url)
-        
+        cell.photoView.af_setImage(withURL: url)
         
         return cell
     }
+    
+    
 
     /*
     // MARK: - Navigation

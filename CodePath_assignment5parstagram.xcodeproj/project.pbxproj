@@ -10,6 +10,7 @@
 		086FF002DB87DEAE7EA65E16 /* Pods_CodePath_assignment5parstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121B0254FA144FC699CF8D09 /* Pods_CodePath_assignment5parstagramUITests.framework */; };
 		17F970DD4BF1508155E4E288 /* Pods_CodePath_assignment5parstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747A8C2FE2C18FEBA79EB63C /* Pods_CodePath_assignment5parstagramTests.framework */; };
 		6F79E182B5C83467F00B82DE /* Pods_CodePath_assignment5parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1219DA4A16BE10E98F5AE0 /* Pods_CodePath_assignment5parstagram.framework */; };
+		A535D17F22482DB90080D993 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535D17E22482DB90080D993 /* FeedViewController.swift */; };
 		A5973F7222430D3A00CB53F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5973F7122430D3A00CB53F6 /* AppDelegate.swift */; };
 		A5973F7722430D3A00CB53F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5973F7522430D3A00CB53F6 /* Main.storyboard */; };
 		A5973F7922430D3B00CB53F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5973F7822430D3B00CB53F6 /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		A5973F8722430D3B00CB53F6 /* CodePath_assignment5parstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5973F8622430D3B00CB53F6 /* CodePath_assignment5parstagramTests.swift */; };
 		A5973F9222430D3B00CB53F6 /* CodePath_assignment5parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5973F9122430D3B00CB53F6 /* CodePath_assignment5parstagramUITests.swift */; };
 		A5E22B922246A59800237CE5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E22B912246A59800237CE5 /* LoginViewController.swift */; };
-		A5E22B942246A5A200237CE5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E22B932246A5A200237CE5 /* FeedViewController.swift */; };
 		A5E22B9622470B1A00237CE5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E22B9522470B1A00237CE5 /* CameraViewController.swift */; };
 		A5E22B9822473D9D00237CE5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E22B9722473D9D00237CE5 /* PostCell.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +48,7 @@
 		747A8C2FE2C18FEBA79EB63C /* Pods_CodePath_assignment5parstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodePath_assignment5parstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		761EDE0FFB11FD669E3CC44B /* Pods-CodePath_assignment5parstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePath_assignment5parstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-CodePath_assignment5parstagramUITests/Pods-CodePath_assignment5parstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A146DC6B07B468FF627F14A5 /* Pods-CodePath_assignment5parstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePath_assignment5parstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-CodePath_assignment5parstagramTests/Pods-CodePath_assignment5parstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A535D17E22482DB90080D993 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A5973F6E22430D3A00CB53F6 /* CodePath_assignment5parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePath_assignment5parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5973F7122430D3A00CB53F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5973F7622430D3A00CB53F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		A5973F9322430D3B00CB53F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5973F9F224414E900CB53F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5E22B912246A59800237CE5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		A5E22B932246A5A200237CE5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		A5E22B9522470B1A00237CE5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A5E22B9722473D9D00237CE5 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		EAC601FDBBB830A24486FB8A /* Pods-CodePath_assignment5parstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePath_assignment5parstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodePath_assignment5parstagramUITests/Pods-CodePath_assignment5parstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,12 +135,12 @@
 				A5973F7122430D3A00CB53F6 /* AppDelegate.swift */,
 				A5973F7522430D3A00CB53F6 /* Main.storyboard */,
 				A5E22B9722473D9D00237CE5 /* PostCell.swift */,
-				A5E22B932246A5A200237CE5 /* FeedViewController.swift */,
 				A5E22B912246A59800237CE5 /* LoginViewController.swift */,
 				A5973F7822430D3B00CB53F6 /* Assets.xcassets */,
 				A5973F7A22430D3B00CB53F6 /* LaunchScreen.storyboard */,
 				A5973F9F224414E900CB53F6 /* README.md */,
 				A5973F7D22430D3B00CB53F6 /* Info.plist */,
+				A535D17E22482DB90080D993 /* FeedViewController.swift */,
 			);
 			path = CodePath_assignment5parstagram;
 			sourceTree = "<group>";
@@ -410,7 +410,7 @@
 			files = (
 				A5E22B922246A59800237CE5 /* LoginViewController.swift in Sources */,
 				A5E22B9622470B1A00237CE5 /* CameraViewController.swift in Sources */,
-				A5E22B942246A5A200237CE5 /* FeedViewController.swift in Sources */,
+				A535D17F22482DB90080D993 /* FeedViewController.swift in Sources */,
 				A5973F7222430D3A00CB53F6 /* AppDelegate.swift in Sources */,
 				A5E22B9822473D9D00237CE5 /* PostCell.swift in Sources */,
 			);

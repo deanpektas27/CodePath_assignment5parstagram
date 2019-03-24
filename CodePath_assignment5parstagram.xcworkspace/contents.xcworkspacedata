@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CodePath_assignment5parstagram/../README.md">
+   </FileRef>
+   <FileRef
       location = "group:CodePath_assignment5parstagram.xcodeproj">
    </FileRef>
    <FileRef

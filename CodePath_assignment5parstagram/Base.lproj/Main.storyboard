@@ -125,9 +125,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B78-jR-WD3">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="B78-jR-WD3">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="393" id="HTe-Ft-34A" customClass="PostCell" customModule="CodePath_assignment5parstagram" customModuleProvider="target">
@@ -178,6 +177,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="B78-jR-WD3" firstAttribute="top" secondItem="U7Z-gw-IrA" secondAttribute="top" id="5eu-K5-7lJ"/>
+                            <constraint firstItem="B78-jR-WD3" firstAttribute="trailing" secondItem="1cO-CN-Wad" secondAttribute="trailing" id="BRt-5V-VXP"/>
+                            <constraint firstItem="1cO-CN-Wad" firstAttribute="bottom" secondItem="B78-jR-WD3" secondAttribute="bottom" id="CXW-ey-eak"/>
+                            <constraint firstItem="B78-jR-WD3" firstAttribute="leading" secondItem="1cO-CN-Wad" secondAttribute="leading" id="q8p-8v-cDj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1cO-CN-Wad"/>
                     </view>
                     <navigationItem key="navigationItem" id="7nM-QQ-TZ8">

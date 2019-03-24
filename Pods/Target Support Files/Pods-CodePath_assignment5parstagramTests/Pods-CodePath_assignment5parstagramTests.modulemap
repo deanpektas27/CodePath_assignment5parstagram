@@ -1,0 +1,6 @@
+framework module Pods_CodePath_assignment5parstagramTests {
+  umbrella header "Pods-CodePath_assignment5parstagramTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

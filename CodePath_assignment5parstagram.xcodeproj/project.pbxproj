@@ -11,6 +11,7 @@
 		17F970DD4BF1508155E4E288 /* Pods_CodePath_assignment5parstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747A8C2FE2C18FEBA79EB63C /* Pods_CodePath_assignment5parstagramTests.framework */; };
 		6F79E182B5C83467F00B82DE /* Pods_CodePath_assignment5parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1219DA4A16BE10E98F5AE0 /* Pods_CodePath_assignment5parstagram.framework */; };
 		A535D17F22482DB90080D993 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A535D17E22482DB90080D993 /* FeedViewController.swift */; };
+		A53CB52A224B0210009F5002 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CB529224B0210009F5002 /* CommentCell.swift */; };
 		A5973F7222430D3A00CB53F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5973F7122430D3A00CB53F6 /* AppDelegate.swift */; };
 		A5973F7722430D3A00CB53F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5973F7522430D3A00CB53F6 /* Main.storyboard */; };
 		A5973F7922430D3B00CB53F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5973F7822430D3B00CB53F6 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		761EDE0FFB11FD669E3CC44B /* Pods-CodePath_assignment5parstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePath_assignment5parstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-CodePath_assignment5parstagramUITests/Pods-CodePath_assignment5parstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A146DC6B07B468FF627F14A5 /* Pods-CodePath_assignment5parstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodePath_assignment5parstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-CodePath_assignment5parstagramTests/Pods-CodePath_assignment5parstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A535D17E22482DB90080D993 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A53CB529224B0210009F5002 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		A5973F6E22430D3A00CB53F6 /* CodePath_assignment5parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodePath_assignment5parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5973F7122430D3A00CB53F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5973F7622430D3A00CB53F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				A5E22B9522470B1A00237CE5 /* CameraViewController.swift */,
 				A5973F7122430D3A00CB53F6 /* AppDelegate.swift */,
 				A5973F7522430D3A00CB53F6 /* Main.storyboard */,
+				A53CB529224B0210009F5002 /* CommentCell.swift */,
 				A5E22B9722473D9D00237CE5 /* PostCell.swift */,
 				A5E22B912246A59800237CE5 /* LoginViewController.swift */,
 				A5973F7822430D3B00CB53F6 /* Assets.xcassets */,
@@ -361,6 +364,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -370,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				A535D17F22482DB90080D993 /* FeedViewController.swift in Sources */,
 				A5973F7222430D3A00CB53F6 /* AppDelegate.swift in Sources */,
 				A5E22B9822473D9D00237CE5 /* PostCell.swift in Sources */,
+				A53CB52A224B0210009F5002 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

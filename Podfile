@@ -8,6 +8,7 @@ target 'CodePath_assignment5parstagram' do
   # Pods for CodePath_assignment5parstagram
   pod "AlamofireImage"
   pod "Parse"
+  pod "MessageInputBar"
 
 
   target 'CodePath_assignment5parstagramTests' do

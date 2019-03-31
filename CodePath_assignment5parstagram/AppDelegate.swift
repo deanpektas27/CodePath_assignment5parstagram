@@ -23,6 +23,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://sleepy-sierra-73782.herokuapp.com/parse"
             })
     )
+        
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)//taking storybord ID created and putting object of story into var
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")//takes instance of the navigation view controller
+            
+            window?.rootViewController = feedNavigationController //sets the window to the instance of feed navigation controller if the if statement is true (if the user is already logged in)
+        }
 
         return true
     }
